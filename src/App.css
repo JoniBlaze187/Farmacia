@@ -1,0 +1,71 @@
+body{
+    background-image: url(fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.App {
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    color: white;
+  }
+  h2{
+    text-align: start;
+    color: #fff;
+  }
+  h3{
+    text-align: start;
+    color: aliceblue;
+  }
+  header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 15px;
+	background-color: #000;
+	color: #fff;
+}
+nav,
+.user {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.username {
+	color: #fff;
+}
+#tablef{
+    background-color: rgba(206, 170, 170, 0.8);
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+#headertable{
+    text-align: center;
+}
+
+
+  @Media(max-width:750px){
+    .responsible-flex{
+      flex-direction: column;
+    }
+    .responsible-width{
+      width: 100% !important;
+    }
+  }
+  #Fb{
+    background-color: rgba(29, 27, 27, 0.8);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  #tablef{
+    background-color: rgba(206, 170, 170, 0.8);
+    border-radius: 10px;
+  }
